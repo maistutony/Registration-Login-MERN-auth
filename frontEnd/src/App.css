@@ -1,0 +1,43 @@
+.form-container {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 16px;
+  }
+  
+  .btn {
+    padding: 6px 12px;
+    border-radius: 2px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  .App{
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white
+  }
+  .create-account{
+    margin-top: 32px;
+  }
+  
